@@ -61,3 +61,10 @@ def xwYahooQuote(symbol,data):
     for i in r.json()['quoteResponse']['result']:
         if field in i:
             return i[field]
+
+
+#
+# In PyDev for Eclipse, Debug as Python Run starts the Debug Server
+#
+if __name__ == '__main__':
+    xw.serve()
