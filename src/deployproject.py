@@ -1,7 +1,7 @@
 import distutils.dir_util as du
 
-src = 'C:\\Users\\Mike\\git\\mra-xlwings\\src'
-dst = 'C:\\Users\\Mike\\Documents\\Excel\\xlwings'
+src = 'C:\\Users\\Mike\\git\\mra-xlwings\\src\\mktdata'
+dst = 'C:\\Users\\Mike\\Documents\\Excel\\xlwings\\mktdata'
 
 print('Copying ' + src + ' to ' + dst + '\n')
 
